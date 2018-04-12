@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ScootleUSA | Don't Waste It, Scootle It!</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                </svg>
+            </a>
+        </span>
+        <img id="logo" src="images/scootle_logo.png" alt="Scootle Logo" height="60px" width="100px">
+    </nav>
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="#">Home</a>
+        <hr>
+        <a href="#">About</a>
+        <hr>
+        <a href="#">Young Entrepreneur</a>
+        <hr>
+        <a href="#">Breaking News</a>
+        <hr>
+        <a href="#">Contact Me</a>
+        <hr>
+    </div>
+    <div class="pimg1" id="main">
+        <div class="rndLogo">
+            <span class="border">
+                <img src="images/ScootleLogoRound.png" alt="Scootle Logo" height="300px" width="300px">
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark" id="main">
+        <h3>Don't Waste it, Just Scootle it !</h3>
+        <p>
+            The average lotion bottle contains up to 25% waste than the traditional pump is unable to reach. SCOOTLE will fit in your
+            lotion bottle and convert it into a flexible lotion scooper so that 25% becomes usable product and in turn saves
+            you money.
+        </p>
+    </section>
+    <div class="pimg2" id="main">
+        <div class="ptext">
+            <span class="border">
+                ABOUT SCOOTLE
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark" id="main">
+        <h3>Innovation</h3>
+        <p>
+            SCOOTLE was innovated in YEA ~ The Young Entrepreneurs Academy, Chicago, ILLINOIS ~ Where Ideas that make everyone say YEA!
+            This groundbreaking and exciting class transformed a young middle school girl into real, confident successful
+            YOUNG Entrepreneur.
+        </p>
+    </section>
+    <div class="pimg3" id="main">
+        <div class="ptext">
+            <span class="border">
+                WHY SCOOTLE
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark" id="main">
+        <h3>Existance</h3>
+        <p>
+            The existence of SCOOTLE is because at an everyday life people use makeup and lotion. But when the lotion or makeup is done
+            and cannot come of the bottle what do we do. Some people throw their bottle away and some people cut the bottle
+            open (if possible.) But now people don’t have to do this because you can save 20-25% of wastage and I have built
+            a product that will save you from wasting so much product.
+        </p>
+    </section>
+    <footer class="scootleFooter">
+        <p id="copyRight">© 2018 ScootleUSA</p> 
+    </footer>
+    <script>
+        function openSlideMenu() {
+            document.getElementById('side-menu').style.width = '250px';
+            // document.getElementById('main').style.marginLeft = '250px';
+        }
+        function closeSlideMenu() {
+            document.getElementById('side-menu').style.width = '0';
+            // document.getElementById('main').style.marginLeft = '0';
+        }
+    </script>
+</body>
+
+</html>
