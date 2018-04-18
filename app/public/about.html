@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>ScootleUSA | Don't Waste It, Scootle It!</title>
+        <!--bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous">
+        <!--css-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                        <p id="menu">MENU</p>
+                    </svg>
+                </a>
+            </span>
+            <img id="logo" src="images/indexPage/scootle_logo.png" alt="Scootle Logo" height="60px" width="100px">
+        </nav>
+        <div id="side-menu" class="side-nav">
+            <span style="cursor:pointer" href="#" class="btn-close" onclick="closeSlideMenu()">&times;</span>
+            <a href="index.html">Home</a>
+            <hr>
+            <a href="about.html">About</a>
+            <hr>
+            <a href="#">Young Entrepreneur</a>
+            <hr>
+            <a href="#">Breaking News</a>
+            <hr>
+            <a href="#">Contact Me</a>
+            <hr>
+        </div>
+        <div class="pimg1" id="main">
+            <div class="rndLogo">
+                <span class="border">
+                </span>
+            </div>
+        </div>
+        <section class="images-dark">
+            <div class="image1">
+                <img src="images/aboutPage/scootleAboutWall1.jpg" alt="scootle" width="300px" height="225px">
+                <div class="image1-s"><h2>SCOO+TLE    (SCOOP IN A BOTTLE)</h2>
+                    <p>SCOOTLE is an innovated flexible bendable convoluted scoop that can go into a bottle of any size</p></div>
+            </div>
+            <div class="image2">
+                <img src="images/aboutPage/scootleAboutWall2.jpg" alt="scootle" width="300px" height="225px">
+                <div class="image2-s"><h2>REUSABLE</h2>
+                    <p>Scootle is a scoop that will extract left over product from a near empty lotion bottle</p></div>
+            </div>
+            <div class="image3">
+                <img src="images/aboutPage/scootleAboutWall3.jpg" alt="scootle" width="300px" height="225px">
+                <div class="image3-s"><h2>EASY TO USE & STORE</h2>
+                    <p>Take out your regular pump from your lotion bottle and turn SCOOTLE into a scoop</p></div>
+            </div>
+            <div class="image4">
+                <img src="images/aboutPage/scootleAboutWall4.jpg" alt="scootle" width="300px" height="225px">
+                <div class="image4-s"><h2>SAVES YOU TIME & MONEY</h2>
+                    <p>Don't get frustrated trying to get the last bit of lotion out of your favorite bottle</p></div>
+            </div>
+        </section>
+        <div class="pimg2" id="main">
+            <div class="ptext">
+                <span class="border">
+                    WASTE REDUCTION & RECYCLE
+                </span>
+            </div>
+        </div>
+        <section class="section section-dark" id="main">
+            <p>
+                Most lotion/beauty bottles contain leftover product that is thrown in trash.  The leftover product ends up in landfills causing hazardous chemicals to mix in with the environment.  These bottles cannot be recycled and end up amounting to tons of waste.  This also leads to many problems including causing impurities in drinking water.  There needs to be a device that can extract leftover product from these bottles.  Two major benefits of this are:
+                <br>1. Plastic/glass bottles can be completely clean so they can be properly recycled.
+                <br>2. Consumers can get more from their product in turn also saving money.       
+            </p>
+        </section>
+        <footer class="scootleFooter">
+            <p id="copyRight">© 2018 ScootleUSA</p> 
+        </footer>
+        <script>
+            function openSlideMenu() {
+                document.getElementById('side-menu').style.width = '250px';
+            }
+            function closeSlideMenu() {
+                document.getElementById('side-menu').style.width = '0';
+            }
+        </script>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    </body>
+
+</html>
