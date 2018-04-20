@@ -158,22 +158,13 @@ hr{
 /*
 * Images-about-page
 */
-.images-dark{
-    background-color: #282e34;
-    height: 255px;
-    text-align: center;
-    align-items: center;
-    margin: auto;
-    /* display: inline; */
-}
 .image1{
     width: 300px;
     height: 225px;
     position: relative;
     float: left;
     cursor: pointer;
-    margin-left: 15px;
-    margin-top:15px;
+    margin-left: 10px;
 }
 .image1:hover .image1-s{
     width:300px;
@@ -214,8 +205,7 @@ hr{
     position: relative;
     float: left;
     cursor: pointer;
-    margin-left: 15px;
-    margin-top:15px;
+    margin-left: 10px;
 
 }
 .image2:hover .image2-s{
@@ -256,8 +246,7 @@ hr{
     position: relative;
     float: left;
     cursor: pointer;
-    margin-left: 15px;
-    margin-top:15px;
+    margin-left: 10px;
 }
 .image3:hover .image3-s{
     width:300px;
@@ -298,8 +287,7 @@ hr{
     position: relative;
     float: left;
     cursor: pointer;
-    margin-left: 15px;
-    margin-top:15px;    
+    margin-left: 10px;
 }
 .image4:hover .image4-s{
     width:300px;
